@@ -39,6 +39,7 @@ spec:
                 secretKeyRef:
                   name: crewai-secrets
                   key: LLM_API_KEY- name: RHDH_TOKEN
+            - name: RHDH_TOKEN
               valueFrom:
                 secretKeyRef:
                   name: crewai-secrets
